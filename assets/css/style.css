@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Lato:wght@300;400;700&display=swap');
+
+.quotes{
+    font-family: "Lato" , sans-serif;
+}
+.navbar{
+    padding: 5px, 5px;
+}
+
+.logoimry{
+    border-radius: 25%;
+    border: 1px;
+    border-color:yellow;
+}
+
+#mainpicture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.navbar-collapse a{
+
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: grey;
+}
+
+
+
+.logoimry{
+    width: 100px;
+}
+
+
+
+
+  
+
+
+/*-----COLORS----*/
+.bg-dark {
+    background-color: #423d3d;
+}
+
+/*-----background----*/
+
