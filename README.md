@@ -26,6 +26,6 @@ The web site is designed for three type of users. The listeners , the fans and t
 
 * As a Fan, I want to be able to access Dj Imry's music by clicking to the "Listen" page, SoundCloud and YouTube Icons on the footer, check social media post via social icons on the footer.
 
-* As a Promoter, I want to check Imry's biography page, reviews from professional, social media and listening to Imry's music to consider future bookings.
+* As a Promoter, I want to check Imry's biography page, reviews from professionals, check social media and listening to Imry's music to consider future bookings.
 
 
