@@ -4,6 +4,7 @@
 html,body{
     overflow-x: hidden;
     height: 100%; 
+    padding-top: 40px;
     
    /* margin: 0px;
     width: 100%;
@@ -80,7 +81,8 @@ small{
 }
 
 .font-dist{
-    padding: 0px 20px;
+    padding: 0px 15px;
+     color:#fafafa;
 
 }
 .container-footer{
@@ -90,17 +92,59 @@ small{
     position: relative;
 
 }
+
+
 /*BIO PAGE*/
 
 
 .container-bio{
+    width: 100%;
+    background-color: #676767;
 
-    padding-top: 100px;
-    background-color:  #676767;
-    
-    
 }
 
+.col-logo-bio{
+    padding-left: 40px;
+
+}
+
+.row-bio-three{
+    padding-bottom: 15px;
+}
+
+
+.bio-part-one, .bio-part-two, .bio-part-three, .bio-part-four{
+    font-family: "Exo 2" , sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:#fafafa;
+
+}
+
+
+
+
+/*LISTEN PAGE*/
+
+.container-player{
+   
+    background-color:  #676767;
+}
+
+.listen-titles{
+    color:#fafafa;
+    font-family: "Lato" , sans-serif;
+    font-weight: 700;
+}
+
+.listen-text{
+    color:#fafafa;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
 
 
 
@@ -109,9 +153,7 @@ small{
 
 
 
-.icon{
-    color:#fafafa; 
-}
+
     
 .bg-dark {
     background-color: #23374c!important;
