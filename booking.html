@@ -11,9 +11,9 @@
       <script src="https://kit.fontawesome.com/cb2d910de4.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
  </head>
-    <body>
+    <body class="body-booking">
 				<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark nav-bg">
-					    <a class="navbar-brand" href="https://soundcloud.com/imry" target="_blank">
+					    <a class="navbar-brand" href="index.html">
 						<img  class="logoimry img-fluid" src="/assets/images/imry_logo_2.png" alt="Imry Logo"></a>
 					
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,38 +36,100 @@
 							</ul>
 						</div>
 				</nav>
-   
-        
-    
-         
-        
-    
 
-    <div class="container-fluid container-footer">                
-        <footer class="row row-footer">
-                <div class="text-center social-media col">
-                    <a href="https://www.facebook.com/Imry.Dj" target="_blank"><i class="icon fab fa-facebook fa-lg font-dist fa-2x "></i></a>
-                    <a href="https://www.youtube.com/channel/UCWPMqr3UzNzQFpUjhNTUOCA/" target="_blank"><i class=" icon fab fa-youtube fa-lg font-dist fa-2x"></i></a>
-                    <a href="https://soundcloud.com/imry" target="_blank"><i class=" icon fab fa-soundcloud fa-lg font-dist fa-2x"></i></a>
-                    <a href="https://www.instagram.com/imry_music/" target="_blank"><i class="icon fab fa-instagram fa-lg font-dist fa-2x"></i></a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Received!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Thank you for your message! We will reply with the information you have required as soon as possible.
+                        
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-imry-form" data-dismiss="modal">Close</button>
+                            
+                        </div>
+                        </div>
+                    </div>
                 </div>
-        </footer>
-    </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+               
+                
+                    <div class="jumbotron jumbotron-fluid container ">
+                        <div class="row">
+                            <div class="col text-center">
+                                <h1 class="jumbo-text-title display-4 ">Bookings</h1>
+                                <p class="lead jumbo-text"> Here you can ask information regarding bookings. <br> You can use this form also for general enquiring like project collaborations or anything you want to know about Imry. </p>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                   
+                    <form class="form-booking">
+                        <div class="form-group">
+                            <input type="text"  class="form-control" id="name" name="name" placeholder="Name" required>
+                        </div>
+                            
+                        <div class="form-group">    
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            
+                        </div>
+
+                        <div class="form-group">   
+                            <input type="text" class="form-control" id="exampleInputSubject1" placeholder="Subject" required>
+                        </div>
+                    
+                        <div class="form-group"> 
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message" required></textarea>
+                        </div>
+
+
+                        <small class="form-text text-muted">We'll never share your details.</small>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <button type="submit" class="btn btn-imry-form " data-toggle="modal" data-target="#exampleModal">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    
+                   
+            
+                
+
+                <div class="container-fluid container-footer container-footer-booking ">                
+                    <footer class="row row-footer ">
+                            <div class="text-center social-media col">
+                                <a href="https://www.facebook.com/Imry.Dj" target="_blank"><i class="icon fab fa-facebook fa-lg font-dist fa-2x "></i></a>
+                                <a href="https://www.youtube.com/channel/UCWPMqr3UzNzQFpUjhNTUOCA/" target="_blank"><i class=" icon fab fa-youtube fa-lg font-dist fa-2x"></i></a>
+                                <a href="https://soundcloud.com/imry" target="_blank"><i class=" icon fab fa-soundcloud fa-lg font-dist fa-2x"></i></a>
+                                <a href="https://www.instagram.com/imry_music/" target="_blank"><i class="icon fab fa-instagram fa-lg font-dist fa-2x"></i></a>
+                            </div>
+                    </footer>
+                </div>
+
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+        ></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+        ></script>
+        <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+        ></script>
     </body>
 </html>
