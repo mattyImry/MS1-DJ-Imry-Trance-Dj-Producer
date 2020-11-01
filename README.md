@@ -57,7 +57,8 @@ On the booking page the colors used are only for the button (#676767) and for th
 
 ### **_Wireframe_**
 
-Link to Wireframes folder (media/wireframes)
+Link to Wireframes folder: https://github.com/mattyImry/MS1-DJ-Imry-Trance-Dj-Producer/tree/master/wireframes
+
 
 
 For the Wireframes I have decided to design it by hand. There has been no alteration to Wireframes from the start of the project.
@@ -142,7 +143,10 @@ No errors has been detected on JavaScript page.
 On CSS page a series of warning are present due to browers prefixes in the media query 
 I have decided to keep the prefix even if warnings have been revealed because I want to make sure that a cross-browser compatibility is achived.
 
-![Validator](media/cssvalidator.jpg)
+Please check validator's screen shot.
+https://github.com/mattyImry/MS1-DJ-Imry-Trance-Dj-Producer/blob/master/media/cssvalidator.jpg
+
+
 
 
 1. ### **_Navigation links_**
