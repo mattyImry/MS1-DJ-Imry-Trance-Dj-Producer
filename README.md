@@ -2,7 +2,7 @@ User Centric Frontend Development Project Milestone 1 - Code Institute
 
 ![Screenshotproject](media/screenshotproject.jpg)
 
-For the deployed site follow :
+For the deployed site follow : https://mattyimry.github.io/MS1-DJ-Imry-Trance-Dj-Producer/index.html
 
 # **_Dj Imry - Trance Dj & Producer_**
 
