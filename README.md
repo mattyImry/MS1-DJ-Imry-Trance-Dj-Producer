@@ -1,5 +1,7 @@
 User Centric Frontend Development Project Milestone 1 - Code Institute
 
+![Screenshotproject](media/screenshotproject.jpg)
+
 For the deployed site follow :
 
 # **_Dj Imry - Trance Dj & Producer_**
@@ -55,7 +57,8 @@ On the booking page the colors used are only for the button (#676767) and for th
 
 ### **_Wireframe_**
 
-Link to Wireframes folder (here)
+Link to Wireframes folder (media/wireframes)
+
 
 For the Wireframes I have decided to design it by hand. There has been no alteration to Wireframes from the start of the project.
 
@@ -136,8 +139,10 @@ No errors has been detected on CSS page.
 
 No errors has been detected on JavaScript page.
 
-On CSS page a series of warning are present due to browers prefixes in the media query( See picture attached)
+On CSS page a series of warning are present due to browers prefixes in the media query 
 I have decided to keep the prefix even if warnings have been revealed because I want to make sure that a cross-browser compatibility is achived.
+
+![Validator](media/cssvalidator.jpg)
 
 
 1. ### **_Navigation links_**
