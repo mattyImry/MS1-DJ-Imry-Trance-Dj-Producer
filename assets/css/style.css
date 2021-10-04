@@ -237,7 +237,11 @@ form .form-control::placeholder {
 }
 
 .navbar-dark .navbar-nav .active>.nav-link {
-  color: #fafafa;
+  color: #fafafa;  
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  padding-right: 30px;
 }
 
 .bg-dark {
