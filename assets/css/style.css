@@ -121,8 +121,8 @@ small {
   color: #fafafa;
   font-family: "Lato" , sans-serif;
   font-weight: 700;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .listen-text {
@@ -136,6 +136,12 @@ small {
 
 .col-tracks {
   margin-bottom: 20px;
+}
+
+.row-djset,
+.row-liveset,
+.row-tracks {
+  padding: 0 70px;
 }
 
 iframe {
