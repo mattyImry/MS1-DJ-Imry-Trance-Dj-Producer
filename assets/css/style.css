@@ -99,12 +99,7 @@ small {
 }
 
 .container-bio {
-  width: 100%;
   background-color: #676767;
-}
-
-.col-logo-bio {
-  padding-left: 40px;
 }
 
 .row-bio-three {
@@ -284,4 +279,5 @@ form .form-control::placeholder {
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
+  }
 }
