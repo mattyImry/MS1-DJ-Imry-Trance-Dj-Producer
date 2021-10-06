@@ -66,6 +66,10 @@ html,body {
   padding-right: 30px;
 }
 
+.group-testimonial {
+  background-color: #676767;
+}
+
 p.col.review {
   padding-top: 25px;
   font-family: "Exo 2" , sans-serif;
@@ -173,7 +177,7 @@ iframe {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.form-group-size{
+.form-group-size {
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -234,7 +238,7 @@ form .form-control::placeholder {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow-y: hidden;
+ 
 }
 
 .container-footer-booking {
@@ -245,7 +249,7 @@ form .form-control::placeholder {
 .jumbotron{
   margin-left: 60px;
   margin-right: 60px;
-  border: 1px solid #fafafa;
+  border: 1px solid #ced4da;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link {
@@ -254,14 +258,17 @@ form .form-control::placeholder {
 
 .navbar-dark .navbar-nav .nav-link {
   padding-right: 30px;
+  padding-left: 5px;
+}
+
+.navbar-dark .navbar-toggler {
+  margin-right: 10px;
+  color: #fafafa;
+  border-color: #fafafa;
 }
 
 .bg-dark {
   background-color: #23374c!important;
-}
-
-.group-testimonial {
-  background-color: #676767;
 }
 
 .btn-imry-form {
@@ -280,6 +287,16 @@ form .form-control::placeholder {
 @media only screen and (min-width: 768px) {
   .description-one {
     padding-left: 230px;}
+}
+
+@media only screen and (max-width: 450px) {
+  .jumbo-text-title{
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 370px) {
+  .jumbo-text-title{
+  font-size: 25px;
 }
 
 
